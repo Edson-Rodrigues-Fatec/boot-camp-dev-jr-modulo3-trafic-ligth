@@ -10,14 +10,15 @@
     <div class="container">
         <div class="traffic-light">
            <div class="panel">
-              <div class="light-off"></div>
-              <div class="light-off"></div>
-              <div class="green-light"></div>
+              <div id="red" class="light light-off"></div>
+              <div id="yellow" class="light light-off"></div>
+              <div id="green" class="light light-off"></div>
            </div>
      </div>
-            <button onclick=> Acione o mecanismo! </button>
+            <button onclick="mudaSinal()"> Acione! </button>
        
         
     </div>
+    <script src="action.js"></script>
  </body>
 </html>
